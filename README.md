@@ -118,6 +118,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+制定版本
+
+```
+pip install --force-reinstall transformers==4.51.3 trl==0.19.1
+```
 
 #### 5️⃣ Run the swarm Node 
 
