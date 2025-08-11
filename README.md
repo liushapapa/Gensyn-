@@ -118,6 +118,15 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
+指定版本
+```
+pip install --force-reinstall transformers==4.51.3 trl==0.19.1
+```
+
+ Apple 芯片的 GPU 进行张量运算
+```
+export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0
+```
 
 #### 5️⃣ Run the swarm Node 
 
