@@ -124,6 +124,12 @@ source .venv/bin/activate
 pip install --force-reinstall transformers==4.51.3 trl==0.19.1
 ```
 
+Apple释放性能
+
+```
+export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0
+```
+
 #### 5️⃣ Run the swarm Node 
 
 ```
